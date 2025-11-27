@@ -129,15 +129,12 @@ DVWA (Damn Vulnerable Web App) é uma aplicação WEB vulnerável para testes.
 http://192.168.56.102/dvwa/login.php
 ```
 ### Inspeção com Menu Desenvolvedor
-- Aberto **Menu Desenvolvedor** → aba **Network**.
+- Aberto **Menu Desenvolvedor** . aba **Network**.
 - Tentativa de login com credenciais incorretas para captura em:
 - Método **POST** na requisição.
 - Consulta **REQUEST** exibindo:
   - Campos enviados: `username` e `password`.
   - Resposta de tela para credêncial incorreta: **"Login failed"** (indicador de falha para uso).
-
-
-
 
 Ordem de comandos:
 ```
@@ -148,7 +145,7 @@ medusa -h 192.168.56.102 -U udvwa.txt -P pass_dvwa.txt -M http \
 -m PAGE:'/dvwa/login.php' \
 -m FORM:'username=^USER^&password=^PASS^&Login=Login' \
 -m 'FAIL=Login failed' -t 6
-
+(Retorna como sucess se houver correspondência em lista)
 ```
 
 **Explicação:**
