@@ -1,0 +1,5 @@
+1 senha
+2 pass
+3 msfadmin
+4 admin
+5 root

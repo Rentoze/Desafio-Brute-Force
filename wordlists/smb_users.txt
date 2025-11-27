@@ -1,0 +1,5 @@
+1 telnettd
+2 msfadmin
+3 backup
+4 mysql
+5 mail
