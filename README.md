@@ -1,4 +1,4 @@
-# Desafio-Brute-Force -  Santander Cibersegurança 2025
+# Desafio-Brute-Force 
 
 # 🔐 Projeto: Simulação de Ataques de Força Bruta com Kali Linux e Medusa
 
