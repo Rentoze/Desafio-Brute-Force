@@ -162,13 +162,11 @@ medusa -h 192.168.56.102 -U udvwa.txt -P pass_dvwa.txt -M http \
 ---
 
 ## 📂 Estrutura do Repositório
-```
 
-- README.md
-- images/        # Capturas de telas
-- wordlists/  # Wordlists utilizadas
 
-```
+- [README.md](README.md <!-- Pasta para capturas de tela -->
+  
+- wordlists  <!-- Pasta para listas de senhas -->
 
 ---
 
